@@ -40,7 +40,7 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 </style>
 </head>
 <body>
-<main id="viewport" aria-label="Blockfront pitch deck, 14 slides">
+<main id="viewport" aria-label="Blockfront pitch deck, 19 slides">
 <div id="stage">
 <section class="slide" id="s-cover" data-transition="fade" style="background:#0E1320;color:#EDE8DC;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:space-between">
 <div style="position:absolute;left:1312px;top:128px;width:480px;height:480px;display:grid;grid-template-columns:repeat(5, 80px);grid-template-rows:repeat(5, 80px);gap:20px">
@@ -53,7 +53,7 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 <p style="font-family:'JetBrains Mono', 'Courier New', monospace;font-size:24px;letter-spacing:3px;color:#F0A33A">PRE-SEED · NOVEMBER 2026</p>
 <div style="display:flex;flex-direction:column;gap:32px;max-width:1100px">
 <h1 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:120px;font-weight:700;line-height:1.05;color:#EDE8DC">Blockfront</h1>
-<p style="font-size:44px;line-height:1.25;color:#B9C1CF">Fast, verifiable RPC for HyperEVM, served from our own Hyperliquid nodes.</p>
+<p style="font-size:44px;line-height:1.25;color:#B9C1CF">The data layer for Hyperliquid. Fast, signed RPC today, verified data tables and the BFT network next.</p>
 </div>
 <p style="font-size:24px;color:#8A93A6">rpc.blockfront.network</p>
 
@@ -73,7 +73,7 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 </div>
 <div style="flex:1;display:flex;flex-direction:column;gap:16px;background:#FBF9F4;padding:40px;border:2px solid #DED7C8;border-radius:16px">
 <h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:44px;font-weight:700;color:#121826">Stale, silently</h3>
-<p style="font-size:32px;line-height:1.4;color:#4A5263">Nothing tells you an answer is old. Confetti’s keeper ran for 11 hours on a node that had fallen behind before anyone noticed.</p>
+<p style="font-size:32px;line-height:1.4;color:#4A5263">Nothing tells you an answer is old, which node it came from, or whether another node would agree.</p>
 </div>
 </div>
 <div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
@@ -106,6 +106,29 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 </div>
 
 </section>
+<section class="slide" id="s-whynow" data-transition="fade" style="background:#F3EFE6;color:#121826;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:700;line-height:1.1;color:#121826">Hyperliquid is where on-chain trading happens now</h2>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#121826;padding:48px 40px;border-radius:16px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace;font-size:96px;font-weight:600;line-height:1.05;color:#F0A33A">$633B</p>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">in perps traded on Hyperliquid in Q1 2026</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#121826;padding:48px 40px;border-radius:16px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace;font-size:96px;font-weight:600;line-height:1.05;color:#F0A33A">$5.9B</p>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">locked on the chain (June 2026)</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#121826;padding:48px 40px;border-radius:16px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace;font-size:96px;font-weight:600;line-height:1.05;color:#5AA9E6">36%</p>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">of all perp DEX volume, trailing 30 days (June 2026)</p>
+</div>
+</div>
+<p style="font-size:32px;line-height:1.4;color:#4A5263">HyperEVM is the programmable side of that chain. Every app built on it needs a fast RPC and clean data. That’s our market, and it’s growing with the chain.</p>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
+<p style="font-size:24px;color:#5E6575">Sources: DefiLlama via CoinLaw (TVL and share, June 2026); Q1 2026 volume as widely reported</p>
+<p style="font-size:24px;color:#5E6575">4</p>
+</div>
+
+</section>
 <section class="slide" id="s-how" data-transition="fade" style="background:#F3EFE6;color:#121826;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
 <h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:700;line-height:1.1;color:#121826">What happens to a request</h2>
 <div style="position:relative;width:1664px;height:520px">
@@ -131,10 +154,10 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 <p style="font-size:24px;color:#4A5263">rank 2, backup only</p>
 </div>
 </div>
-<p style="font-size:28px;line-height:1.4;color:#4A5263">The same nodes also run transformers (slide 7). Every 1,000 blocks each one publishes a fingerprint of its data, and we only serve data from nodes whose fingerprints match.</p>
+<p style="font-size:28px;line-height:1.4;color:#4A5263">The same nodes also run transformers (slide 8). Every 1,000 blocks each one publishes a fingerprint of its data, and we only serve data from nodes whose fingerprints match.</p>
 <div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
 <p style="font-size:24px;color:#5E6575">How it’s set up today, Nov 3</p>
-<p style="font-size:24px;color:#5E6575">4</p>
+<p style="font-size:24px;color:#5E6575">5</p>
 </div>
 
 </section>
@@ -162,7 +185,7 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 </div>
 <div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
 <p style="font-size:24px;color:#8A93A6">Measured on our Tokyo box, Nov 3, 03:13 to 21:55 UTC. Latency is measured on the box itself; real users add their own network time to both.</p>
-<p style="font-size:24px;color:#8A93A6">5</p>
+<p style="font-size:24px;color:#8A93A6">6</p>
 </div>
 
 </section>
@@ -195,7 +218,7 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 </div>
 <div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
 <p style="font-size:24px;color:#5E6575">Live endpoint, Nov 3 (signature shortened)</p>
-<p style="font-size:24px;color:#5E6575">6</p>
+<p style="font-size:24px;color:#5E6575">7</p>
 </div>
 
 </section>
@@ -221,6 +244,29 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 </div>
 </div>
 <p style="font-size:32px;line-height:1.4;color:#B9C1CF">For confetti, positions, fills, liquidations, deposits and points are one query away. Rebuilding the same data from raw logs used to take hours.</p>
+
+</section>
+<section class="slide" id="s-datamarket" data-transition="fade" style="background:#0E1320;color:#EDE8DC;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:700;line-height:1.1;color:#EDE8DC">Blockchain data is already a billion-dollar category</h2>
+<div style="display:flex;gap:32px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#161D2E;padding:48px 40px;border-radius:16px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace;font-size:96px;font-weight:600;line-height:1.05;color:#F0A33A">$1B</p>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">Dune’s valuation at its $69.4M Series B</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#161D2E;padding:48px 40px;border-radius:16px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace;font-size:96px;font-weight:600;line-height:1.05;color:#F0A33A">6.49B</p>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">queries served by The Graph in a single quarter</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#161D2E;padding:48px 40px;border-radius:16px">
+<p style="font-family:'JetBrains Mono', 'Courier New', monospace;font-size:96px;font-weight:600;line-height:1.05;color:#5AA9E6">$20M</p>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">Goldsky’s seed round for blockchain indexing</p>
+</div>
+</div>
+<p style="font-size:32px;line-height:1.4;color:#B9C1CF">Every HyperEVM app rebuilds the same tables: trades, positions, balances, deposits. We build them once, check them on every node, and sell them by the query. <span style="color:#EDE8DC">That’s the bigger business, and on HyperEVM it’s still up for grabs.</span></p>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
+<p style="font-size:24px;color:#8A93A6">Sources: The Block (Dune, Feb 2022); Messari via press (The Graph, Q2 2025); BetaKit (Goldsky, Sept 2022)</p>
+<p style="font-size:24px;color:#8A93A6">9</p>
+</div>
 
 </section>
 <section class="slide" id="s-caught" data-transition="fade" style="background:#F0A33A;color:#121826;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:space-between">
@@ -274,7 +320,7 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 </div>
 <div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
 <p style="font-size:24px;color:#8A93A6">Indexed from block 48,404,443, when confetti’s first contract went live</p>
-<p style="font-size:24px;color:#8A93A6">9</p>
+<p style="font-size:24px;color:#8A93A6">11</p>
 </div>
 
 </section>
@@ -292,7 +338,7 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 </div>
 <div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
 <p style="font-size:24px;color:#5E6575">*Demo numbers. These screenshots use test data, not real usage.</p>
-<p style="font-size:24px;color:#5E6575">10</p>
+<p style="font-size:24px;color:#5E6575">12</p>
 </div>
 
 </section>
@@ -314,26 +360,115 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 <p style="font-size:24px;line-height:1.4;color:#4A5263">“All” means realtime, archive and transformers. A plan runs 30 days per payment, and paying again extends it.</p>
 <div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
 <p style="font-size:24px;color:#5E6575">Competitor prices from chainstack.com and quicknode.com pricing pages, Nov 2026</p>
-<p style="font-size:24px;color:#5E6575">11</p>
+<p style="font-size:24px;color:#5E6575">13</p>
+</div>
+
+</section>
+<section class="slide" id="s-money" data-transition="fade" style="background:#F3EFE6;color:#121826;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:700;line-height:1.1;color:#121826">How Blockfront makes money</h2>
+<div style="display:flex;gap:48px">
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-left:6px solid #F0A33A;padding:4px 0 4px 28px">
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:40px;font-weight:700;color:#121826">RPC plans</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5263">Live today: 29, 149 and 399 USDC a month, paid on-chain from the customer’s wallet.</p>
+</div>
+<div style="flex:1;display:flex;flex-direction:column;gap:8px;border-left:6px solid #5AA9E6;padding:4px 0 4px 28px">
+<h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:40px;font-weight:700;color:#121826">Data queries</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5263">Every query on a transformer is paid. The publisher, the nodes serving it and Blockfront each take a share.</p>
+</div>
+</div>
+<table style="font-family:'IBM Plex Sans', Arial, sans-serif;font-size:28px;color:#121826">
+<tr style="background:#121826"><th style="width:20%;text-align:right;color:#EDE8DC">Paying teams</th><th style="width:32%;text-align:right;color:#EDE8DC">Builder / Pro / Scale</th><th style="width:22%;text-align:right;color:#EDE8DC">Monthly</th><th style="width:26%;text-align:right;color:#EDE8DC">Yearly</th></tr>
+<tr style="background:#FBF9F4"><td style="text-align:right">100</td><td style="text-align:right">60 / 30 / 10</td><td style="text-align:right">$10,200</td><td style="text-align:right">$122,400</td></tr>
+<tr style="background:#F3EFE6"><td style="text-align:right">1,000</td><td style="text-align:right">600 / 300 / 100</td><td style="text-align:right">$102,000</td><td style="text-align:right">$1.22M</td></tr>
+<tr style="background:#FBF9F4"><td style="text-align:right">5,000</td><td style="text-align:right">3,000 / 1,500 / 500</td><td style="text-align:right">$510,000</td><td style="text-align:right">$6.12M</td></tr>
+</table>
+<p style="font-size:28px;line-height:1.4;color:#4A5263">That’s RPC plans alone, at today’s prices. <span style="color:#121826">Data queries come on top, and they grow with every app that ships on HyperEVM.</span></p>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
+<p style="font-size:24px;color:#5E6575">Illustrative scenarios at today’s plan prices, not forecasts</p>
+<p style="font-size:24px;color:#5E6575">14</p>
+</div>
+
+</section>
+<section class="slide" id="s-token" data-transition="fade" style="background:#0E1320;color:#EDE8DC;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:700;line-height:1.1;color:#EDE8DC">BFT: the token that keeps the network honest</h2>
+<p style="font-size:32px;line-height:1.4;color:#B9C1CF">Customers keep paying in USDC. BFT is what everyone who runs, publishes or vouches for data puts on the line.</p>
+</div>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:40px 64px">
+<div style="display:flex;flex-direction:column;gap:10px;border-top:4px solid #F0A33A;padding:24px 0 0 0">
+<h3 style="font-size:36px;font-weight:600;color:#EDE8DC">Stake to run a node</h3>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">Operators stake BFT to serve traffic and get paid for it. Stale or wrong answers cost them stake.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;border-top:4px solid #F0A33A;padding:24px 0 0 0">
+<h3 style="font-size:36px;font-weight:600;color:#EDE8DC">Stake to publish data</h3>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">Listing a transformer takes a BFT stake, so junk costs money to post.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;border-top:4px solid #5AA9E6;padding:24px 0 0 0">
+<h3 style="font-size:36px;font-weight:600;color:#EDE8DC">Curate and earn</h3>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">Back the transformers you trust with BFT and share in the query fees they bring in.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;border-top:4px solid #5AA9E6;padding:24px 0 0 0">
+<h3 style="font-size:36px;font-weight:600;color:#EDE8DC">Settle disputes</h3>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">When nodes disagree, the fingerprints decide, and the side that was wrong is slashed.</p>
+</div>
+</div>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
+<p style="font-size:24px;color:#8A93A6">BFT is not live yet. Design draft; final terms with counsel.</p>
+<p style="font-size:24px;color:#8A93A6">15</p>
+</div>
+
+</section>
+<section class="slide" id="s-tokenflow" data-transition="fade" style="background:#F3EFE6;color:#121826;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:700;line-height:1.1;color:#121826">Every query feeds BFT</h2>
+<div style="position:relative;width:1664px;height:420px">
+<svg class="conn" width="1664" height="420" viewBox="0 0 1664 420" aria-hidden="true"><defs><marker id="ah0" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#121826"/></marker><marker id="ah1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="5" markerHeight="5" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#F0A33A"/></marker></defs><path d="M340.0,210.0 L480.0,210.0" fill="none" stroke="#121826" stroke-width="3" marker-end="url(#ah0)"/><path d="M780.0,190.0 L850.0,190.0 L850.0,46.0 L920.0,46.0" fill="none" stroke="#121826" stroke-width="3" marker-end="url(#ah0)"/><path d="M780.0,205.0 L850.0,205.0 L850.0,154.0 L920.0,154.0" fill="none" stroke="#121826" stroke-width="3" marker-end="url(#ah0)"/><path d="M780.0,215.0 L850.0,215.0 L850.0,262.0 L920.0,262.0" fill="none" stroke="#121826" stroke-width="3" marker-end="url(#ah0)"/><path d="M780.0,230.0 L850.0,230.0 L850.0,370.0 L920.0,370.0" fill="none" stroke="#F0A33A" stroke-width="3" marker-end="url(#ah1)"/></svg>
+<div style="position:absolute;left:0px;top:150px;width:340px;height:120px;background:#FBF9F4;border:2px solid #DED7C8;border-radius:16px;padding:24px;display:flex;flex-direction:column;justify-content:center;gap:6px">
+<p style="font-family:'Space Grotesk', Arial, sans-serif;font-size:32px;font-weight:700;color:#121826">Apps pay in USDC</p>
+<p style="font-size:24px;color:#4A5263">for RPC and data</p>
+</div>
+<div style="position:absolute;left:480px;top:140px;width:300px;height:140px;background:#121826;border-radius:16px;padding:28px;display:flex;flex-direction:column;justify-content:center;gap:6px">
+<p style="font-family:'Space Grotesk', Arial, sans-serif;font-size:32px;font-weight:700;color:#EDE8DC">Query fee</p>
+<p style="font-size:24px;color:#B9C1CF">split on every call</p>
+</div>
+<div style="position:absolute;left:920px;top:0px;width:744px;height:92px;background:#FBF9F4;border:2px solid #DED7C8;border-radius:14px;padding:0 28px;display:flex;flex-direction:row;align-items:center;gap:20px">
+<p style="font-family:'Space Grotesk', Arial, sans-serif;font-size:30px;font-weight:700;color:#121826">Publisher</p>
+<p style="font-size:26px;color:#4A5263">for building the transformer</p>
+</div>
+<div style="position:absolute;left:920px;top:108px;width:744px;height:92px;background:#FBF9F4;border:3px solid #5AA9E6;border-radius:14px;padding:0 28px;display:flex;flex-direction:row;align-items:center;gap:20px">
+<p style="font-family:'Space Grotesk', Arial, sans-serif;font-size:30px;font-weight:700;color:#121826">Operators</p>
+<p style="font-size:26px;color:#4A5263">staked BFT, for serving it</p>
+</div>
+<div style="position:absolute;left:920px;top:216px;width:744px;height:92px;background:#FBF9F4;border:3px solid #5AA9E6;border-radius:14px;padding:0 28px;display:flex;flex-direction:row;align-items:center;gap:20px">
+<p style="font-family:'Space Grotesk', Arial, sans-serif;font-size:30px;font-weight:700;color:#121826">Curators</p>
+<p style="font-size:26px;color:#4A5263">staked BFT, for backing it</p>
+</div>
+<div style="position:absolute;left:920px;top:324px;width:744px;height:92px;background:#121826;border:3px solid #F0A33A;border-radius:14px;padding:0 28px;display:flex;flex-direction:row;align-items:center;gap:20px">
+<p style="font-family:'Space Grotesk', Arial, sans-serif;font-size:30px;font-weight:700;color:#F0A33A">Burn</p>
+<p style="font-size:26px;color:#EDE8DC">a slice buys BFT on the market and burns it</p>
+</div>
+</div>
+<p style="font-size:32px;line-height:1.4;color:#4A5263">More apps mean more queries. More queries mean more fees to the people staking BFT, more stake needed to serve the traffic, and more BFT burned. <span style="color:#121826">Demand for the token grows with real use.</span></p>
+<div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
+<p style="font-size:24px;color:#5E6575">BFT is not live. Design draft, not an offer of tokens. Precedent: The Graph burns 1% of query fees.</p>
+<p style="font-size:24px;color:#5E6575">16</p>
 </div>
 
 </section>
 <section class="slide" id="s-landscape" data-transition="fade" style="background:#0E1320;color:#EDE8DC;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
-<div style="display:flex;flex-direction:column;gap:16px">
 <h2 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:72px;font-weight:700;line-height:1.1;color:#EDE8DC">Who else is in this space</h2>
-</div>
-<table style="font-family:'IBM Plex Sans', Arial, sans-serif;font-size:30px;color:#B9C1CF">
-<tr style="background:#161D2E"><th style="width:26%;color:#EDE8DC">Who</th><th style="width:74%;color:#EDE8DC">What they do</th></tr>
-<tr><td style="color:#EDE8DC">The Graph</td><td>The big indexing marketplace (subgraphs, indexers, curators, delegators)</td></tr>
-<tr><td style="color:#EDE8DC">SubQuery</td><td>Indexing network with its own token</td></tr>
-<tr><td style="color:#EDE8DC">Goldsky, Envio</td><td>Hosted indexing, no open marketplace</td></tr>
-<tr><td style="color:#EDE8DC">Pocket, Lava</td><td>Decentralized RPC, no indexing</td></tr>
-<tr style="background:#2A2416"><td style="color:#F0A33A">Blockfront</td><td style="color:#EDE8DC">RPC and transformers on the same HyperEVM nodes, signed, paid in USDC</td></tr>
+<table style="font-family:'IBM Plex Sans', Arial, sans-serif;font-size:26px;color:#B9C1CF">
+<tr style="background:#161D2E"><th style="width:27%;color:#EDE8DC">Who</th><th style="width:43%;color:#EDE8DC">What they do</th><th style="width:30%;color:#EDE8DC">On HyperEVM</th></tr>
+<tr><td style="color:#EDE8DC">Chainstack, QuickNode, dRPC</td><td>Hosted RPC, billed by credits or requests</td><td>Yes, one chain of many</td></tr>
+<tr><td style="color:#EDE8DC">Goldsky, Envio</td><td>Hosted indexing, no open marketplace</td><td>Yes, one chain of many</td></tr>
+<tr><td style="color:#EDE8DC">SubQuery</td><td>Indexing network with its own token</td><td>Yes, one chain of many</td></tr>
+<tr><td style="color:#EDE8DC">The Graph</td><td>The big indexing marketplace</td><td>Not that we could find</td></tr>
+<tr><td style="color:#EDE8DC">Pocket, Lava</td><td>Decentralized RPC, no indexing</td><td>Lava yes, Pocket not found</td></tr>
+<tr style="background:#2A2416"><td style="color:#F0A33A">Blockfront</td><td style="color:#EDE8DC">RPC and indexing on the same nodes, signed</td><td style="color:#F0A33A">HyperEVM only, our own hl-nodes</td></tr>
 </table>
-<p style="font-size:28px;line-height:1.4;color:#B9C1CF">The Graph proved people will pay for indexed data. We’re betting HyperEVM teams want it from the same nodes that serve their RPC.</p>
+<p style="font-size:28px;line-height:1.4;color:#B9C1CF">Everyone on this list added HyperEVM as one chain among dozens. We only do HyperEVM: our own Hyperliquid nodes, Tokyo first, every response signed.</p>
 <div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
-<p style="font-size:24px;color:#8A93A6">Sources: The Graph docs and each project’s own site</p>
-<p style="font-size:24px;color:#8A93A6">12</p>
+<p style="font-size:24px;color:#8A93A6">Sources: each provider’s own docs and chain lists, Nov 2026</p>
+<p style="font-size:24px;color:#8A93A6">17</p>
 </div>
 
 </section>
@@ -352,18 +487,18 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 <h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:40px;font-weight:700;color:#121826">Next</h3>
 <p style="font-size:28px;line-height:1.4;color:#4A5263">An archive node, so old blocks come from us too</p>
 <p style="font-size:28px;line-height:1.4;color:#4A5263">Move confetti over (keeper, page, points)</p>
-<p style="font-size:28px;line-height:1.4;color:#4A5263">Final pricing</p>
+<p style="font-size:28px;line-height:1.4;color:#4A5263">Customers two and three after confetti</p>
 </div>
 <div style="flex:1;display:flex;flex-direction:column;gap:20px;background:#FBF9F4;padding:40px;border-top:8px solid #121826;border-radius:16px">
 <h3 style="font-family:'Space Grotesk', Arial, sans-serif;font-size:40px;font-weight:700;color:#121826">After that</h3>
-<p style="font-size:28px;line-height:1.4;color:#4A5263">Open the transformer market: anyone can publish one by staking</p>
-<p style="font-size:28px;line-height:1.4;color:#4A5263">Curators back the good ones and share the fees</p>
-<p style="font-size:28px;line-height:1.4;color:#4A5263">Nodes that publish bad fingerprints lose their stake</p>
+<p style="font-size:28px;line-height:1.4;color:#4A5263">Launch BFT: operators, publishers and curators stake to take part</p>
+<p style="font-size:28px;line-height:1.4;color:#4A5263">Open the transformer market to any publisher, fees split on every query</p>
+<p style="font-size:28px;line-height:1.4;color:#4A5263">Bad fingerprints lose their stake; a slice of every fee is burned</p>
 </div>
 </div>
 <div style="position:absolute;left:128px;right:128px;bottom:64px;display:flex;justify-content:space-between">
 <p style="font-size:24px;color:#5E6575">As of Nov 3</p>
-<p style="font-size:24px;color:#5E6575">13</p>
+<p style="font-size:24px;color:#5E6575">18</p>
 </div>
 
 </section>
@@ -391,7 +526,7 @@ html,body{margin:0;height:100%;background:#0B0F19;color:#EDE8DC;overflow:hidden}
 </main>
 <nav id="bar" aria-label="Slides">
 <button id="prev" type="button" aria-label="Previous slide">&#8592;</button>
-<span id="count" aria-live="polite">1 / 14</span>
+<span id="count" aria-live="polite">1 / 19</span>
 <button id="next" type="button" aria-label="Next slide">&#8594;</button>
 <button id="full" type="button" aria-label="Full screen">Full screen</button>
 </nav>
